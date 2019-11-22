@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.4.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@4"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"width": 400, "height": 300}, "mark": {"tooltip": null}}, "data": {"name": "data-d42e9bd6de77b59ed73563889b39888a"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "Party", "scale": {"range": ["cyan", "blue", "green", "black", "red", "orange"]}}, "tooltip": [{"type": "quantitative", "field": "Standings"}], "x": {"type": "quantitative", "field": "Standings"}, "y": {"type": "nominal", "field": "Party", "sort": {"field": "Standings", "op": "count", "order": "descending"}}}, "selection": {"selector002": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "$schema": "https://vega.github.io/schema/vega-lite/v3.4.0.json", "datasets": {"data-d42e9bd6de77b59ed73563889b39888a": [{"Unnamed: 0": "Liberal Party of Canada", "Low Bounds": 0, "Expected Value": 55.52070707, "Standings": 157, "High Bounds": 338, "Party": "Liberal Party of Canada"}, {"Unnamed: 0": "Conservative Party of Canada", "Low Bounds": 0, "Expected Value": 55.52070707, "Standings": 121, "High Bounds": 338, "Party": "Conservative Party of Canada"}, {"Unnamed: 0": "Bloc Qu\u00e9b\u00e9cois", "Low Bounds": 0, "Expected Value": 11.04487734, "Standings": 32, "High Bounds": 78, "Party": "Bloc Qu\u00e9b\u00e9cois"}, {"Unnamed: 0": "New Democratic Party", "Low Bounds": 0, "Expected Value": 55.52070707, "Standings": 24, "High Bounds": 338, "Party": "New Democratic Party"}, {"Unnamed: 0": "Green Party of Canada", "Low Bounds": 0, "Expected Value": 55.52070707, "Standings": 3, "High Bounds": 338, "Party": "Green Party of Canada"}, {"Unnamed: 0": "Independent", "Low Bounds": 0, "Expected Value": 12.42983405, "Standings": 1, "High Bounds": 91, "Party": "Independent"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
