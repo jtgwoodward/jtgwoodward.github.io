@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_abe6f048c67442a3aff3ad101cf3897b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_abe6f048c67442a3aff3ad101cf3897b" ></div>
+        
+</body>
+<script>    
+    
+            var map_abe6f048c67442a3aff3ad101cf3897b = L.map(
+                "map_abe6f048c67442a3aff3ad101cf3897b",
+                {
+                    center: [49.26713335, -123.1266904],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_09bfd7894215487989e3d37c1c2f81a3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            var circle_14fc13f962d54ad09056ed1021f22d9e = L.circle(
+                [49.27877295, -123.0807976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_14fc13f962d54ad09056ed1021f22d9e.bindTooltip(
+                `<div>
+                     ['School Name:Admiral Seymour Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db706c9bb0524803aa0d157170f858c3 = L.circle(
+                [49.254926700000006, -123.2122976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_db706c9bb0524803aa0d157170f858c3.bindTooltip(
+                `<div>
+                     ['School Name:Bayview Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b8223649de5546239e99590d23eec790 = L.circle(
+                [49.2762216, -123.07142379999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_b8223649de5546239e99590d23eec790.bindTooltip(
+                `<div>
+                     ['School Name:Britannia Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4d5404db870c4b7f9d7d4c106592deea = L.circle(
+                [49.2189743, -123.03579199999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_4d5404db870c4b7f9d7d4c106592deea.bindTooltip(
+                `<div>
+                     ['School Name:Captain James Cook Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ea13947983084e6caf67959ff692c37f = L.circle(
+                [49.2347653, -123.17674509999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_ea13947983084e6caf67959ff692c37f.bindTooltip(
+                `<div>
+                     ['School Name:Carnarvon Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9660cf780e684f7e83cb8086ee8be300 = L.circle(
+                [49.2211308, -123.0268011],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_9660cf780e684f7e83cb8086ee8be300.bindTooltip(
+                `<div>
+                     ['School Name:Champlain Heights Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_de96b0c4d30c4f2d914c459d7fb49dde = L.circle(
+                [49.2556984, -123.10197209999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_de96b0c4d30c4f2d914c459d7fb49dde.bindTooltip(
+                `<div>
+                     ['School Name:Charles Dickens Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bbcb2095702245959d1301d4b56cf78e = L.circle(
+                [49.2680313, -123.0507989],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_bbcb2095702245959d1301d4b56cf78e.bindTooltip(
+                `<div>
+                     ['School Name:Chief Maquinna Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2e751068e65e41c5842be75c9fadbbde = L.circle(
+                [49.27863205, -123.10691010000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 450, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_2e751068e65e41c5842be75c9fadbbde.bindTooltip(
+                `<div>
+                     ['School Name:Crosstown Elementary', 'Waitlist:45']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_817f6b7975bb4e908f60964f2b08272c = L.circle(
+                [49.2499364, -123.0794235],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_817f6b7975bb4e908f60964f2b08272c.bindTooltip(
+                `<div>
+                     ['School Name:David Livingstone Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9d796b41a2784cd5916330dfc694ed4f = L.circle(
+                [49.2070391, -123.13771509999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_9d796b41a2784cd5916330dfc694ed4f.bindTooltip(
+                `<div>
+                     ['School Name:David Lloyd George Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4b6a9f0935d14a2f9f336b3fe2de5b16 = L.circle(
+                [49.213644, -123.0601521],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_4b6a9f0935d14a2f9f336b3fe2de5b16.bindTooltip(
+                `<div>
+                     ['School Name:David Oppenheimer Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cc0c5e34dcdd48f3a4e07dfde073ab3d = L.circle(
+                [49.2794181, -123.04013959999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_cc0c5e34dcdd48f3a4e07dfde073ab3d.bindTooltip(
+                `<div>
+                     ['School Name:Dr A R Lord Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_15631df53e254b609093493b935be3f1 = L.circle(
+                [49.2273724, -123.12096909999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_15631df53e254b609093493b935be3f1.bindTooltip(
+                `<div>
+                     ['School Name:Dr Annie B Jamieson Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f1dd674858d849289b83960c351da046 = L.circle(
+                [49.23003610000001, -123.03223770000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_f1dd674858d849289b83960c351da046.bindTooltip(
+                `<div>
+                     ['School Name:Dr George M Weir Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8528a63db3554d8f87f85b10fafc3a4a = L.circle(
+                [49.22797845, -123.02945159999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_8528a63db3554d8f87f85b10fafc3a4a.bindTooltip(
+                `<div>
+                     ['School Name:Dr H N MacCorkindale Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2c4dd0ef6c254091a8e77bd0622f82c2 = L.circle(
+                [49.2391402, -123.15187320000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_2c4dd0ef6c254091a8e77bd0622f82c2.bindTooltip(
+                `<div>
+                     ['School Name:Dr R E McKechnie Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_15f7efd1e6d34c4f858e9751c1bf19e8 = L.circle(
+                [49.2579748, -123.19355290000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_15f7efd1e6d34c4f858e9751c1bf19e8.bindTooltip(
+                `<div>
+                     ['School Name:Ecole Jules Quesnel Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_30aeafc4de3647ea980896639f0842c9 = L.circle(
+                [49.2617706, -123.0613034],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_30aeafc4de3647ea980896639f0842c9.bindTooltip(
+                `<div>
+                     ['School Name:Ecole Laura Secord Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e36388ca4aae4e58bfefd7029555f4ec = L.circle(
+                [49.25287275, -123.11717639999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 450, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_e36388ca4aae4e58bfefd7029555f4ec.bindTooltip(
+                `<div>
+                     ['School Name:Edith Cavell Elementary', 'Waitlist:45']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_46c4797cdb8741fab77720127e10a50d = L.circle(
+                [49.2721125, -123.12267050000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 420, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_46c4797cdb8741fab77720127e10a50d.bindTooltip(
+                `<div>
+                     ['School Name:Elsie Roy Elementary', 'Waitlist:42']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6c05889395cb4875924c223d41b90f4a = L.circle(
+                [49.2497944, -123.1260076],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 210, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_6c05889395cb4875924c223d41b90f4a.bindTooltip(
+                `<div>
+                     ['School Name:Emily Carr Elementary', 'Waitlist:21']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c3e301ffcf34418e82c3831bac20dbbf = L.circle(
+                [49.26713335, -123.12669040000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 360, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_c3e301ffcf34418e82c3831bac20dbbf.bindTooltip(
+                `<div>
+                     ['School Name:False Creek Elementary', 'Waitlist:36']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c28bd2cbfdc0429fb2fd09d8995afcb5 = L.circle(
+                [49.2597625, -123.09496599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_c28bd2cbfdc0429fb2fd09d8995afcb5.bindTooltip(
+                `<div>
+                     ['School Name:Florence Nightingale Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_037ccf85ae07434f94ca99f95258faef = L.circle(
+                [49.236824600000006, -123.0574501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_037ccf85ae07434f94ca99f95258faef.bindTooltip(
+                `<div>
+                     ['School Name:G T Cunningham Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fc5bd055b3084f82878f455feaf283cb = L.circle(
+                [49.2413878, -123.10039540000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_fc5bd055b3084f82878f455feaf283cb.bindTooltip(
+                `<div>
+                     ['School Name:General Brock Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f9922ed7036b4cba979c0f8a1b3f8945 = L.circle(
+                [49.26622715, -123.1706097],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_f9922ed7036b4cba979c0f8a1b3f8945.bindTooltip(
+                `<div>
+                     ['School Name:General Gordon Elementary', 'Waitlist:30']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e0aa330c5e1d415483da81727a1a9de8 = L.circle(
+                [49.2583477, -123.0872697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_e0aa330c5e1d415483da81727a1a9de8.bindTooltip(
+                `<div>
+                     ['School Name:General Wolfe Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d3d29af5141b4917be2fe156db69cf35 = L.circle(
+                [49.2415679, -123.02521409999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_d3d29af5141b4917be2fe156db69cf35.bindTooltip(
+                `<div>
+                     ['School Name:Graham Bruce Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a68237f9c254f318573191de94c8a7e = L.circle(
+                [49.2648385, -123.073576],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_7a68237f9c254f318573191de94c8a7e.bindTooltip(
+                `<div>
+                     ['School Name:Grandview Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a9447daf9bb945f6bc78f407263ffc02 = L.circle(
+                [49.282382399999996, -123.0511423],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_a9447daf9bb945f6bc78f407263ffc02.bindTooltip(
+                `<div>
+                     ['School Name:Hastings Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e25678c6e02f4e66af0b7ee9ef478aa7 = L.circle(
+                [49.268057, -123.1479726],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 580, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_e25678c6e02f4e66af0b7ee9ef478aa7.bindTooltip(
+                `<div>
+                     ['School Name:Henry Hudson Elementary', 'Waitlist:58']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_17712670fb10491580826f8cbaa15cd0 = L.circle(
+                [49.2172949, -123.1086419],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_17712670fb10491580826f8cbaa15cd0.bindTooltip(
+                `<div>
+                     ['School Name:J W Sexsmith Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_92c0cb25a2594e478d3a2e1874513707 = L.circle(
+                [49.22310505, -123.0954475],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_92c0cb25a2594e478d3a2e1874513707.bindTooltip(
+                `<div>
+                     ['School Name:John Henderson Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f0cfe838c72549fca402590d04cb9321 = L.circle(
+                [49.24178505, -123.05093959999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_f0cfe838c72549fca402590d04cb9321.bindTooltip(
+                `<div>
+                     ['School Name:John Norquay Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_29ccd3b625e948b6b668fcefcf3cbb82 = L.circle(
+                [49.2360816, -123.17367479999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_29ccd3b625e948b6b668fcefcf3cbb82.bindTooltip(
+                `<div>
+                     ['School Name:Kerrisdale Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fa9c61083a3d4146b97d487dc8c9dedc = L.circle(
+                [49.258323299999994, -123.130366],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_fa9c61083a3d4146b97d487dc8c9dedc.bindTooltip(
+                `<div>
+                     ["School Name:L'Ecole Bilingue Elementary", 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b187b52420d3464dabcf5ceaccd5df37 = L.circle(
+                [49.25195485, -123.0533769],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_b187b52420d3464dabcf5ceaccd5df37.bindTooltip(
+                `<div>
+                     ['School Name:Lord Beaconsfield Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ee25e42811034ca5831121b3a6987112 = L.circle(
+                [49.2488384, -123.1108178],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_ee25e42811034ca5831121b3a6987112.bindTooltip(
+                `<div>
+                     ['School Name:Lord Kitchener Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3b8ef526fdc143309bf7643666585e8f = L.circle(
+                [49.2757596, -123.057907],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_3b8ef526fdc143309bf7643666585e8f.bindTooltip(
+                `<div>
+                     ['School Name:Lord Nelson Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2794c36d40554e51990f701cc2892b2d = L.circle(
+                [49.28702775, -123.1383001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_2794c36d40554e51990f701cc2892b2d.bindTooltip(
+                `<div>
+                     ['School Name:Lord Roberts Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2bdc18ca17aa4f69bd87e71e8f09e921 = L.circle(
+                [49.2496926, -123.06904229999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_2bdc18ca17aa4f69bd87e71e8f09e921.bindTooltip(
+                `<div>
+                     ['School Name:Lord Selkirk Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_963c463390ac4151b54dcc9b3649a462 = L.circle(
+                [49.2804468, -123.1023082],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_963c463390ac4151b54dcc9b3649a462.bindTooltip(
+                `<div>
+                     ['School Name:Lord Strathcona Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db85620fa06d44b2b41ab7d46255d5c8 = L.circle(
+                [49.26235565, -123.149369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_db85620fa06d44b2b41ab7d46255d5c8.bindTooltip(
+                `<div>
+                     ['School Name:Lord Tennyson Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b14eb8ebeff34aa4accc88a295c2960b = L.circle(
+                [49.22978, -123.15222460000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_b14eb8ebeff34aa4accc88a295c2960b.bindTooltip(
+                `<div>
+                     ['School Name:Maple Grove Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e2a605d627a54a7ab11f2ab246f3966f = L.circle(
+                [49.2597625, -123.09496599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_e2a605d627a54a7ab11f2ab246f3966f.bindTooltip(
+                `<div>
+                     ['School Name:Mount Pleasant Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_07c878cf8918426296f69583549708e5 = L.circle(
+                [49.246660999999996, -123.04163020000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_07c878cf8918426296f69583549708e5.bindTooltip(
+                `<div>
+                     ['School Name:Nootka Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2c995e0e04614981b63af1b71b1d9aea = L.circle(
+                [49.2618166, -123.2347988],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_2c995e0e04614981b63af1b71b1d9aea.bindTooltip(
+                `<div>
+                     ['School Name:Norma Rose Point School', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2697b591d91d441f97a3082476ce67e6 = L.circle(
+                [49.214602899999996, -123.0960445],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_2697b591d91d441f97a3082476ce67e6.bindTooltip(
+                `<div>
+                     ['School Name:Pierre Elliott Trudeau Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_53652f35a1c14f578ff10938793b19b9 = L.circle(
+                [49.261862799999996, -123.07647709999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_53652f35a1c14f578ff10938793b19b9.bindTooltip(
+                `<div>
+                     ['School Name:Queen Alexandra Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_79c024958ed84a57b23af8205d58d25e = L.circle(
+                [49.257192100000005, -123.14704509999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_79c024958ed84a57b23af8205d58d25e.bindTooltip(
+                `<div>
+                     ['School Name:Queen Elizabeth Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9665511bc69045e097d7ce61c4c255ff = L.circle(
+                [49.271294, -123.2057718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_9665511bc69045e097d7ce61c4c255ff.bindTooltip(
+                `<div>
+                     ['School Name:Queen Mary Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_78f3a6dc72d64891ace2211c365ac4d3 = L.circle(
+                [49.2391402, -123.15187320000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_78f3a6dc72d64891ace2211c365ac4d3.bindTooltip(
+                `<div>
+                     ['School Name:Quilchena Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dced397233834fb9a521a13e70942457 = L.circle(
+                [49.2511122, -123.03180859999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_dced397233834fb9a521a13e70942457.bindTooltip(
+                `<div>
+                     ['School Name:Renfrew Community Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8d8b0aa020fb44f4904b9b14dc493b90 = L.circle(
+                [49.24844055, -123.14370149999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_8d8b0aa020fb44f4904b9b14dc493b90.bindTooltip(
+                `<div>
+                     ['School Name:Shaughnessy Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_df413b2c67014fffa3e332df9d69ab7c = L.circle(
+                [49.2571727, -123.1083818],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 750, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_df413b2c67014fffa3e332df9d69ab7c.bindTooltip(
+                `<div>
+                     ['School Name:Simon Fraser Elementary', 'Waitlist:75']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a9e28ba7e294f689d9f5368fe7a933c = L.circle(
+                [49.234495700000004, -123.06618119999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_7a9e28ba7e294f689d9f5368fe7a933c.bindTooltip(
+                `<div>
+                     ['School Name:Sir Alexander Mackenzie Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e592e697a5764dfe9cf144ff5d90ec98 = L.circle(
+                [49.2152563, -123.0541874],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_e592e697a5764dfe9cf144ff5d90ec98.bindTooltip(
+                `<div>
+                     ['School Name:Sir Charles Kingsford-Smith Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_76f7c8985b574aec9456d8407da69150 = L.circle(
+                [49.234079200000004, -123.04002890000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_76f7c8985b574aec9456d8407da69150.bindTooltip(
+                `<div>
+                     ['School Name:Sir Guy Carleton Comm Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8c019c7e70304866a9b4a83aa47317f4 = L.circle(
+                [49.2161271, -123.0640185],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_8c019c7e70304866a9b4a83aa47317f4.bindTooltip(
+                `<div>
+                     ['School Name:Sir James Douglas Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dd550d905dbc4863ae641aeefda51b2a = L.circle(
+                [49.2661905, -123.02847290000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_dd550d905dbc4863ae641aeefda51b2a.bindTooltip(
+                `<div>
+                     ['School Name:Sir John Franklin Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1d86c4ef03ab453d9342e64565286b66 = L.circle(
+                [49.2718166, -123.03765049999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_1d86c4ef03ab453d9342e64565286b66.bindTooltip(
+                `<div>
+                     ['School Name:Sir Matthew Begbie Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d7e7cc0301af450090fa25e81879ea3e = L.circle(
+                [49.24355235, -123.07824109999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_d7e7cc0301af450090fa25e81879ea3e.bindTooltip(
+                `<div>
+                     ['School Name:Sir Richard McBride Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f6c2c9dcf9bb4250b37f38cf1dc5d9ba = L.circle(
+                [49.225325899999994, -123.07591229999998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_f6c2c9dcf9bb4250b37f38cf1dc5d9ba.bindTooltip(
+                `<div>
+                     ['School Name:Sir Sandford Fleming Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_88356f5fcfae4eab84e10f6746dc6d17 = L.circle(
+                [49.2430373, -123.0345406],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_88356f5fcfae4eab84e10f6746dc6d17.bindTooltip(
+                `<div>
+                     ['School Name:Sir Wilfred Grenfell Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c29ccaf728e544f59939eafc149ce185 = L.circle(
+                [49.21846045, -123.12560249999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_c29ccaf728e544f59939eafc149ce185.bindTooltip(
+                `<div>
+                     ['School Name:Sir Wilfrid Laurier Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a045a548e6934fb0ad82ac84431876de = L.circle(
+                [49.2056821, -123.1333801],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_a045a548e6934fb0ad82ac84431876de.bindTooltip(
+                `<div>
+                     ['School Name:Sir William Osler Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_194dc83812144a8390164f1c1d913d2e = L.circle(
+                [49.2317385, -123.10633759999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_194dc83812144a8390164f1c1d913d2e.bindTooltip(
+                `<div>
+                     ['School Name:Sir William Van Horne Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fbe09e929cd0444db54304f5e0d60253 = L.circle(
+                [49.2375696, -123.19774720000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_fbe09e929cd0444db54304f5e0d60253.bindTooltip(
+                `<div>
+                     ['School Name:Southlands Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_030d706ae5a94bc2aacdf36a2233195d = L.circle(
+                [49.23120435, -123.0678535],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_030d706ae5a94bc2aacdf36a2233195d.bindTooltip(
+                `<div>
+                     ['School Name:Tecumseh Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4667ff53505948b2b3c0ecf6866e6cf1 = L.circle(
+                [49.263597100000005, -123.0320252],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_4667ff53505948b2b3c0ecf6866e6cf1.bindTooltip(
+                `<div>
+                     ['School Name:Thunderbird Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_68f8b359ea0c46c2bf80550ad9bc6a2f = L.circle(
+                [49.25002025, -123.1642365],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_68f8b359ea0c46c2bf80550ad9bc6a2f.bindTooltip(
+                `<div>
+                     ['School Name:Trafalgar Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f7c1a967d97d4d87b651446406a01847 = L.circle(
+                [49.25345985, -123.07360190000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_f7c1a967d97d4d87b651446406a01847.bindTooltip(
+                `<div>
+                     ['School Name:Tyee Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_38363a1d76044755ae47ecce72e782bf = L.circle(
+                [49.2747568, -123.2367692],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_38363a1d76044755ae47ecce72e782bf.bindTooltip(
+                `<div>
+                     ['School Name:University Hill Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f8c599c60f9f490ebfdb24223b04e4e4 = L.circle(
+                [49.215762899999994, -123.08429270000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_f8c599c60f9f490ebfdb24223b04e4e4.bindTooltip(
+                `<div>
+                     ['School Name:Walter Moberly Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a35de244cff43ea8c227f5a4d583413 = L.circle(
+                [49.227852399999996, -123.05718929999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_7a35de244cff43ea8c227f5a4d583413.bindTooltip(
+                `<div>
+                     ['School Name:Waverley Elementary', 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_04526a2689a649a9a0ce3a326673c48e = L.circle(
+                [49.281064, -123.0316371],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abe6f048c67442a3aff3ad101cf3897b);
+        
+    
+            circle_04526a2689a649a9a0ce3a326673c48e.bindTooltip(
+                `<div>
+                     ["School Name:Xpey' Elementary", 'Waitlist:0']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
